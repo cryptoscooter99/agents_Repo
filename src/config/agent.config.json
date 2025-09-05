@@ -1,0 +1,17 @@
+{
+  "agent_name": "Kodex",
+  "version": "1.0",
+  "owner": "Scott (\u201cN3uroniK\u201d)",
+  "consent_tokens": {
+    "ALLOW_READ_ONLY": true,
+    "ALLOW_DIFF_PROPOSAL": true,
+    "ALLOW_LOCAL_COMMANDS": false,
+    "ALLOW_NETWORK_ACCESS": false,
+    "ALLOW_WRITE_CHANGES": false,
+    "ALLOW_DB_MIGRATIONS": false,
+    "ALLOW_DEPLOYMENTS": false
+  },
+  "workdir": ".",
+  "log_dir": "logs",
+  "artifact_dir": "artifacts"
+}

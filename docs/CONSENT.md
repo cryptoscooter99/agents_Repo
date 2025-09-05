@@ -1,0 +1,11 @@
+# Consent Tokens
+
+- `ALLOW_READ_ONLY`
+- `ALLOW_DIFF_PROPOSAL`
+- `ALLOW_LOCAL_COMMANDS`
+- `ALLOW_NETWORK_ACCESS`
+- `ALLOW_WRITE_CHANGES`
+- `ALLOW_DB_MIGRATIONS`
+- `ALLOW_DEPLOYMENTS`
+
+> Only enable what's needed for the current task.

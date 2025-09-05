@@ -1,4 +1,17 @@
+# Node / JS
 node_modules/
-.env
-.DS_Store
+dist/
+coverage/
 *.log
+
+# macOS
+.DS_Store
+
+# Env
+.env
+.env.*
+!.env.example
+
+# Python (if used by tools)
+__pycache__/
+*.pyc

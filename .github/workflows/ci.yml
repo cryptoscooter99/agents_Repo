@@ -1,0 +1,26 @@
+name: CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install optional linters
+        run: |
+          npm i -g markdownlint-cli
+          sudo apt-get update && sudo apt-get install -y yamllint || true
+
+      - name: Run checks
+        run: ./scripts/check.sh
